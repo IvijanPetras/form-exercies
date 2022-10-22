@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.form-container{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    > * {
+        flex: 1;
+    }
+}
+
+fieldset{
+    width: 15rem;
+    color: white;
+    border: none;
+}
+
+label{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+
+.image-container{
+    background: lightblue url("https://cdn.pixabay.com/photo/2019/10/04/05/42/workshop-4524838_1280.jpg") no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 60%;
+}
+
+.header-text{
+    background-color: #c5946f;
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    flex-direction: column;
+    font-size: 15px;
+    color: aliceblue;
+    > p{
+        margin-top: 2rem;
+        font-size: 20px;
+        margin-left: 2rem;
+    }
+}
+
+h1{
+    margin-left: 2rem;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #8A6243;
+    box-shadow: 2px 2px 8px black;
+    z-index: 1;
+}
+
+.col{
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+body{
+    display: flex;
+}
+
+#logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    color: white;
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 80px;
+    transform: translateY(10rem);
+    opacity: 0.8;
+     > img{
+        height:80%;
+        padding-right: 2rem;
+    }
+}
+
+.bottom-container{
+   color: aliceblue;
+   background-color: #c5946f;
+   > p a{
+    color: aliceblue;
+    text-decoration: none;
+   }
+   > button{
+    margin-top: 4rem;
+   }
+   > *{
+    margin-left: 4rem;
+   }
+}
+
+input{
+    width: 80%;
+    border-radius: 3px;
+    border: none2;
+}
+
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
